@@ -1,0 +1,32 @@
+
+body{
+    padding-top:100px;
+}
+.background_image{
+					background-image:url(../img/bg_01.jpg);
+					background-repeat: no-repeat;
+					}
+
+@media (min-width: 992px) { 
+							.background_image{
+												background-image: url(../img/bg_02.jpg);
+												background-size: cover;
+												}
+							}
+
+.banner_content{
+	color: #fff;
+	margin-top:12%;
+	margin-bottom: 12%;
+	margin-right: 12%;
+	margin-left: 12%; 
+	background-color: rgba(0,0,0,0.7);
+	position: relative;
+
+}
+
+footer {
+	padding-top: 10px;
+    background-color: #101010;
+    color:#9d9d9d;
+}
