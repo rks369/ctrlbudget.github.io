@@ -192,7 +192,19 @@ require('includes/db_connection.php');
 			  					<br>
 			  					<br>
 			  					<div>
-			  						<a href="<?php echo $expense_data['bill']?> " target="_blank"class="btn btn-dark btn-block">View Bill</a>
+			  						<?php
+			  							if ($expense_data['bill']==NULL) 
+			  							{
+			  						?>
+			  							<p class="btn btn-dark btn-block">Bill Is Not Available</p>
+			  						<?php 
+			  						}
+			  						else{
+			  						?>
+			  							<a href="<?php echo $expense_data['bill']?> " target="_blank"class="btn btn-dark btn-block">View Bill</a>
+			  						<?php 
+			  						}
+			  						?>
 			  					</div>
 			    			</div>
 			  			</div>
