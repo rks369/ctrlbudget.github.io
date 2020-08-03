@@ -8,6 +8,8 @@ _____________________________________________Folder Structure___________________
 	
 	
 	Budget/
+	├── bill/ 
+	│    └── #All Bill will Save Here
 	├── css/ 
 	│    └── styel.css
 	├──  img/
