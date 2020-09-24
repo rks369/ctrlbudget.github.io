@@ -1,6 +1,6 @@
-*****************************Web Development Project Solution*************************************************
-
-DESCRIPTION: This is the solution to the Expense Manager website 
+********************************** A Expense Manager website *************************************************
+Project Submitted Through Mail
+DESCRIPTION: A Expense Manager website 
 
 Extract the files from project_solution.zip.
 
@@ -8,6 +8,8 @@ _____________________________________________Folder Structure___________________
 	
 	
 	Budget/
+	├── bill/ 
+	│    └── #All Bill will Save Here
 	├── css/ 
 	│    └── styel.css
 	├──  img/
@@ -45,7 +47,7 @@ ____________________________________________SETUP_______________________________
 3.) Import the budget.sql file present in the zip folder.
 4.) Open the htdocs folder in the xampp folder. Copy paste the folder Budget.
 5.) Open the browser, type localhost/budget/index.php and you should see the index page of the website.
-
+6.) You Should Have Good Internet Connection Because It use Bootstrap CSC.
 **************************************************************************************************************
 CONTACT: riteshsaini331@gmail.com
 
