@@ -1,5 +1,4 @@
 ********************************** A Expense Manager website *************************************************
-Project Submitted Through Mail
 DESCRIPTION: A Expense Manager website 
 
 Extract the files from project_solution.zip.
